@@ -4,7 +4,7 @@ library(arulesViz)
 library(recommenderlab)
 
 ###example 1 
-library(arules)
+library(arules) 
 data('Groceries') #embeded data in the package
 inspect(head(Groceries,3))
 summary(Groceries)
