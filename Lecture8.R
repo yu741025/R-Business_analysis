@@ -59,8 +59,10 @@ cluster2$Title[1:10]
 
 ##Introduction to k-means Clustering
 #Analyze CharlesBookClub
+CharlesBookClub = read.csv("Data/CharlesBookClub.csv", header=TRUE, sep=",")
 Book.df=CharlesBookClub[,c(3:6,8:18)]
-set.seed(123)
+set.seed(123) 
+
 Member.seg = kmeans(scale(Book.df), centers=3)
 
 Member.seg
