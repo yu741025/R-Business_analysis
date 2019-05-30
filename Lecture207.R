@@ -153,7 +153,7 @@ jester[8,c(1:20)]
 ##how to predict and verify during analysis
 #for test data: given random 15 items as input
 e <- evaluationScheme(rmat, method="split", train=0.8, given=15)
-UB.Rec <- Recommender(getData(e, "train"), "UBCF")
+UB.Rec <- Recommender(getData(e, "train"), "UBCF") 
 # compute predicted ratings
 p1 <- predict(UB.Rec, getData(e, "known"), type="ratings")
 # set all predictions that fall outside the valid range to the boundary values
