@@ -3,7 +3,7 @@ library(car)
 library(arulesViz)
 library(recommenderlab)
 
-###example 1
+###example 1 
 library(arules)
 data('Groceries') #embeded data in the package
 inspect(head(Groceries,3))
