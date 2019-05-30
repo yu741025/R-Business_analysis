@@ -2,7 +2,7 @@
 #Analyze movieLens data
 movies = read.table("movieLens.txt", header=FALSE, sep="|", quote="\"")
 
-str(movies)
+str(movies)  
 
 # Add column names
 colnames(movies) = c("ID", "Title", "ReleaseDate", "VideoReleaseDate", 
