@@ -4,7 +4,7 @@ R code exercises
 Business_analysis_X---Practice
 
 
-Lecture_20X--Inclass Exercises
+Lecture_X--Inclass Exercises
 
 # Data
 Lecture 1: customers, results, seg, & store
