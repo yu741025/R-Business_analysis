@@ -156,6 +156,7 @@ e <- evaluationScheme(rmat, method="split", train=0.8, given=15)
 UB.Rec <- Recommender(getData(e, "train"), "UBCF") 
 # compute predicted ratings
 p1 <- predict(UB.Rec, getData(e, "known"), type="ratings")
+
 # set all predictions that fall outside the valid range to the boundary values
 p1@data@x[p1@data@x[] < -10] <- -10
 p1@data@x[p1@data@x[] > 10] <- 10
@@ -175,3 +176,4 @@ p2@data@x[p1@data@x[] < -10] <- -10
 p2@data@x[p1@data@x[] > 10] <- 10
 #verify prediction
 calcPredictionAccuracy(p2, getData(e, "unknown"))
+
