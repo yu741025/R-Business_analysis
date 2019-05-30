@@ -1,6 +1,6 @@
 ##Introduction to Hierarchical Clustering
 #Analyze movieLens data
-movies = read.table("movieLens.txt", header=FALSE, sep="|", quote="\"")
+movies = read.table("Data/movieLens.txt", header=FALSE, sep="|", quote="\"")
 
 str(movies)  
 
