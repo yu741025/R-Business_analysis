@@ -23,11 +23,11 @@ Lecture 7: retail, CharlesBookClub, jester-data-3
 
 Lecture 8: movieLens, CharlesBookClub
 
-HW1: LaptopSalesJanuary2008Sub.csv (567KB) & sat.csv (19KB)
+HW1: LaptopSalesJanuary2008Sub.csv & sat.csv 
 
-HW2: BostonHousing.csv (32KB)
+HW2: BostonHousing.csv 
 
-HW3: banks.csv (461Bytes)&eBayAuctions.csv (80KB)
+HW3: banks.csv &eBayAuctions.csv 
 
 HW4:
 
