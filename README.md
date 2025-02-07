@@ -38,5 +38,4 @@ HW4:Universal Bank &ToyotaCorolla.csv
 
 5/30 Update:Lecture 207
 
-協同控制
 
